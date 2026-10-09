@@ -142,8 +142,3 @@ ATTACK AT DAWN
 
 ![Decryption console output](assets/Decryption.png)
 
-## 8. Submission
-
-This repository provides the **C++ source code**, **screenshots inside the `assets` folder**, and **README documentation**. The repository URL is submitted through **Blackboard**, as requested in the assignment instructions.
-
-> This cipher is for learning classical cryptography and is not intended for protecting sensitive real-world information.
