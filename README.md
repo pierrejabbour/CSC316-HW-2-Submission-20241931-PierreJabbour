@@ -16,7 +16,7 @@
 
 ### Option B: g++ (Windows, Linux, or macOS)
 
-Open a terminal in the folder containing `Assignment 2.cpp` and compile it with:
+Open a terminal in the folder containing `main.cpp` and compile it with:
 
 ```bash
 g++ -std=c++17 "main.cpp" -o vigenere
