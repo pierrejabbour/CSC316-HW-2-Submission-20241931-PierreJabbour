@@ -4,38 +4,12 @@
 **Language:** C++  
 **Student:** Pierre Jabbour
 
-## 1. Project Overview
-
-This console program encrypts and decrypts text using the **Vigenère cipher**, followed by one or more **row-based or column-based permutation rounds**. During decryption, the program undoes the permutations in reverse order and then reverses the Vigenère substitution, recovering the original plaintext.
-
-The application allows users to choose encryption (`E`) or decryption (`D`), enter a secret key, select permutation types, and specify the permutation order for each round. It displays the intermediate results and the final output.
-
-## 2. Repository Files
-
-```text
-CSC316-HW-2-Submission-20241931-PierreJabbour/
-├── Assignment 2.cpp
-├── README.md
-└── assets/
-    ├── Encryption.png
-    ├── Decryption.png
-    └── assets.gitkeep
-```
-
-- **`Assignment 2.cpp`** — Complete C++ source code.
-- **`README.md`** — Compilation instructions, algorithm explanation, and test cases.
-- **`assets/Encryption.png`** — Console screenshot of the encryption test.
-- **`assets/Decryption.png`** — Console screenshot of the successful decryption test.
-- **`assets/assets.gitkeep`** — Optional placeholder file; it does not affect the program.
-
-> **Note:** The paths and capitalization above match the filenames uploaded to this repository.
-
-## 3. How to Compile and Run
+## 1. How to Compile and Run
 
 ### Option A: Microsoft Visual Studio (Windows)
 
 1. Open **Microsoft Visual Studio** and create a **C++ Console App** project.
-2. Add the code from **`Assignment 2.cpp`** to the project (or replace the contents of the project's generated `.cpp` file with it).
+2. Add the code from **`main.cpp`** to the project (or replace the contents of the project's generated `.cpp` file with it).
 3. Choose **Build > Build Solution** to compile.
 4. Press **Ctrl + F5** (**Start Without Debugging**) to run.
 5. Follow the prompts displayed in the console.
@@ -45,7 +19,7 @@ CSC316-HW-2-Submission-20241931-PierreJabbour/
 Open a terminal in the folder containing `Assignment 2.cpp` and compile it with:
 
 ```bash
-g++ -std=c++17 "Assignment 2.cpp" -o vigenere
+g++ -std=c++17 "main.cpp" -o vigenere
 ```
 
 Run on **Windows PowerShell**:
